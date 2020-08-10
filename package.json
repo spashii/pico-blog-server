@@ -1,0 +1,18 @@
+{
+  "name": "pico-blog",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "spashii <sameer.pashikanti@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
